@@ -382,7 +382,7 @@ curl -X POST \
 
 ```
 
-* 发送给某个 installation id 的用户
+* 发送给某个 installation id 的用户,ios用户注意，installationId改为deviceToken，官方不提出，我也是醉了
 
 ```sh
 curl -X POST \
